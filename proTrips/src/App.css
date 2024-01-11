@@ -1,0 +1,95 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande","Lucida Sans", Arial, sans-serif;
+  background-color: #8C888A;
+  align-items: center;
+  text-align: center;
+
+}
+
+.main{
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+
+ul {
+  display: flex;
+  padding: 2% 0% 2% 4%;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: black;
+  align-items: center;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+ul div {
+  display: flex;
+  margin-right: 10%;
+  gap: 55%;
+}
+
+h1 {
+  font-size: 3em;
+  text-align: center;
+}
+
+.kalvium{
+  font-size: 2em;
+}
+
+.forms {
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  width: 370px;
+  height: 400px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+input,
+.btn {
+  margin-bottom: 15px;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.btn {
+  background-color: #41a445;
+}
+.btn:hover{
+  cursor: pointer;
+  background-color: #1c9821;
+}
+
+h2 {
+  font-size: 25px;
+  padding: 20px 40px 20px 40px;
+  background-color: #417dff;
+  color: white;
+}
+
+.error-text {
+  color: red;
+}
